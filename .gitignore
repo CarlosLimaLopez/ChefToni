@@ -1,0 +1,59 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+[Bb]uild/
+[Bb]uild[Ll]og.*
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+*.pdb
+*.cache
+*.dll
+*.exe
+
+# Archivos de publicación
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+wwwroot/vendor/
+
+# Archivos de configuración y entorno
+appsettings.*.json
+secrets.json
+
+# Archivos de dependencias
+node_modules/
+bower_components/
+
+# Archivos de logs
+*.log
+
+# Archivos de usuario y entorno
+*.swp
+*.bak
+*.tmp
+*.db
+*.DS_Store
+Thumbs.db
+
+# Archivos de Rider y JetBrains
+.idea/
+*.sln.iml
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de Blazor WebAssembly
+wwwroot/_framework/
+wwwroot/_bin/
